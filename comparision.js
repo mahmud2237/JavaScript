@@ -1,0 +1,5 @@
+console.log(5 > 10)
+console.log(10 > 10)
+console.log(10 == 10)
+console.log(59 <= 10)
+console.log(5 != 10)
