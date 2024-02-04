@@ -10,13 +10,15 @@ const person = {
 // dot notation
 console.log(person.name);
 console.log(person.age);
+const boyos = person.age;
+console.log('Now age is:', boyos+1);
 console.log(person.proffession);
-
-const income = person.salary;
-console.log(incole);
 
 // bracket notation
 console.log(person['salary']);
+const income = person['salary'];
+console.log('Now income is:', income + person['salary']);
+
 console.log(person['married']);
 console.log(person['subjects']);
 
