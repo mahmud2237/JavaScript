@@ -20,9 +20,11 @@ function doMath(num1, num2){
     const diff = num1 - num2;
     const product = sum * diff;  // multiplication
     const result = product / 2;  // division
+    console.log(sum, diff, product, result);
     return result;
+
 }
-console.log(sum, diff, product, quotient);
+
 const result = doMath(10, 5);
 console.log(result);
 

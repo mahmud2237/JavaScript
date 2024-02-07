@@ -42,6 +42,8 @@ console.log(numberOfElements([1, 2, 3, 4, 5]));
 
 // Problem below code
 function getAge(person){
-    const age = person.age;
+    const age = person;
     return age;
 }
+const rahimAge = getAge(22);
+console.log(rahimAge);
